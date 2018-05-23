@@ -1,0 +1,38 @@
+Introduction to Coding
+======================
+Author's Name
+v0.0.1, 2018-5
+:doctype: book
+
+Web
+----
+
+image:http://vividventures.biz/d/sites/default/files/figures/client_server.jpg[alt="client-server",width=300,height=256] 
+A really simple view of the web minus the code and the wires and all the 
+intermediate hardware. See a more complex view of the web at 
+http://www.opte.org/[Opte]. Once you have seen the interconnectedness of 
+the web on Opte and reviewed the technical details of how that diagram was 
+created your first observation should be that every server and every client 
+has access to all other servers and clients in the world. Yes! Your good 
+customers can find your website on your server and the bad guys can find it 
+too! Code you write, websites and computers under your control must take 
+into account and protect against https://www.us-cert.gov/[known] 
+http://en.wikipedia.org/wiki/Hacker_%28computer_security%29[hacker 
+exploits].
+
+<<<
+
+Client Side
+~~~~~~~~~~~
+In web parlance a _Client_ such as legacy browsers Internet Explorer, 
+Firefox, Chrome, Opera and Safari exist on ones personal computing hardware 
+as a means to access information on a remote server. The client technology 
+is rapidly evolving as apps for hardware such as smart phones and wearable 
+devices. Rapid evolution and competition has led to some variance in the 
+way each browser interprets the code it receives in a web page. Features 
+that work in one browser may not work at all in others, which has led to 
+the need for https://en.wikipedia.org/wiki/Cross-browser[cross-browser] 
+testing and the development of 
+https://en.wikipedia.org/wiki/List_of_web_testing_tools[web testing tools].
+
+<<<

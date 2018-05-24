@@ -36,3 +36,15 @@ testing and the development of
 https://en.wikipedia.org/wiki/List_of_web_testing_tools[web testing tools].
 
 <<<
+
+[colophon]
+Colophon
+========
+
+.Software
+* Edited with https://asciidoclive.com[asciidoclive]
+* Output with https://github.com/asciidoc/asciidoc3[asciidoc3] which 
+requres Python3
+  * command: #`asciidoc -dbook index.txt`
+* Reference: 
+http://blog.srackham.com/posts/publishing-ebooks-with-asciidoc/[publishing-ebooks]

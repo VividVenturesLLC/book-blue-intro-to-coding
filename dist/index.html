@@ -727,23 +727,27 @@ install: function(toclevels) {
 }
 
 }
-asciidoc.install();
+asciidoc.install(2);
 /*]]>*/
 </script>
 </head>
 <body class="book">
 <div id="header">
 <h1>Introduction to Coding</h1>
-<span id="author">Author's Name</span><br />
+<span id="author">Northdecoder</span><br />
 <span id="revnumber">version 0.0.1,</span>
 <span id="revdate">2018-5</span>
+<div id="toc">
+  <div id="toctitle">Table of Contents</div>
+  <noscript><p><b>JavaScript must be enabled in your browser to display the table of contents.</b></p></noscript>
+</div>
 </div>
 <div id="content">
 <div class="sect1">
 <h2 id="_web">Web</h2>
 <div class="sectionbody">
 <div class="paragraph"><p><span class="image">
-<img src="http://vividventures.biz/d/sites/default/files/figures/client_server.jpg" alt="client-server" width="300" height="256" />
+<img src="../assets/images/figures/client_server.jpg" alt="client-server" width="300" height="256" />
 </span>
 A really simple view of the web minus the code and the wires and all the
 intermediate hardware. See a more complex view of the web at
@@ -779,20 +783,34 @@ testing and the development of
 <div class="ulist"><div class="title">Software</div><ul>
 <li>
 <p>
-Edited with <a href="https://asciidoclive.com">asciidoclive</a>
+Edited and previewed with <a href="https://asciidoclive.com">asciidoclive</a>
 </p>
 </li>
 <li>
 <p>
-Output with <a href="https://github.com/asciidoc/asciidoc3">asciidoc3</a> which
-requres Python3
+Copy and pasted to <a href="https://www.nano-editor.org/">nano</a> text editor on development machine.
 </p>
 </li>
 <li>
 <p>
-command: #<code>asciidoc -dbook index.txt</code>
+Output formated with <a href="https://github.com/asciidoc/asciidoc3">asciidoc3</a> which requires Python3
 </p>
 </li>
+<li>
+<p>
+bash commands to publish from <code>index.txt</code> to <code>index.html</code>:
+</p>
+</li>
+</ul></div>
+<div class="listingblock">
+<div class="content">
+<pre><code>    # asciidoc --version
+    asciidoc 8.6.9
+
+    # cd src
+    # asciidoc -o ../dist/index.html -a toc -dbook index.txt</code></pre>
+</div></div>
+<div class="ulist"><ul>
 <li>
 <p>
 Reference:
@@ -807,7 +825,7 @@ Reference:
 <div id="footer">
 <div id="footer-text">
 Version 0.0.1<br />
-Last updated 2018-05-23 20:25:38 EDT
+Last updated 2018-05-24 12:52:46 EDT
 </div>
 </div>
 </body>

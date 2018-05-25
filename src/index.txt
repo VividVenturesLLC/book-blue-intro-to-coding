@@ -67,6 +67,7 @@ _https://mitpress.mit.edu/sites/default/files/sicp/index.html["Structure and Int
 Computer Programs"]_ which focusus on "finding general patterns from specific 
 problems"^https://en.wikipedia.org/wiki/Structure_and_Interpretation_of_Computer_Programs[1]^.
 
+<<<
 
 Web
 ----
@@ -98,6 +99,28 @@ that work in one browser may not work at all in others, which has led to
 the need for https://en.wikipedia.org/wiki/Cross-browser[cross-browser] 
 testing and the development of 
 https://en.wikipedia.org/wiki/List_of_web_testing_tools[web testing tools].
+
+Browsers
+^^^^^^^^
+A web browser is a software application for retrieving, presenting and traversing information 
+resources on a local machine, intranet or on the World Wide Web. The primary purpose of a web 
+browser is to bring information resources to the user ("retrieval" or "fetching"), allowing them to 
+view the information ("display", "rendering"), and then access other information ("navigation", 
+"following links"). ^(http://en.wikipedia.org/wiki/Web_browser[1])^ Some popular browsers are: 
+http://en.wikipedia.org/wiki/Internet_Explorer[Internet Explorer], 
+http://en.wikipedia.org/wiki/Firefox[Firefox], http://en.wikipedia.org/wiki/Google_Chrome[Google 
+Chrome], http://en.wikipedia.org/wiki/Opera_%28web_browser%29[Opera], 
+http://en.wikipedia.org/wiki/Safari_%28web_browser%29[Safari] and 
+http://en.wikipedia.org/wiki/Konqueror[Konquerer]. A http://en.wikipedia.org/wiki/Mobile_app[mobile 
+app] is a computer program designed to run on smartphones, tablet computers and other mobile 
+devices.
+
+The browsers high level 
+http://www.html5rocks.com/en/tutorials/internals/howbrowserswork/#The_browser_high_level_structure[structure]:
+
+
+image:../assets/images/figures/web_browser_layers.png[alt=web_browser_layers.png,width=300]
+
 
 <<<
 

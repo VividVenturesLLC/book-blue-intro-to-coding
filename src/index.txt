@@ -1,3 +1,5 @@
+// a2x: --dblatex-opts "--param toc.section.depth=3"
+
 Introduction to Coding
 ======================
 Northdecoder
@@ -60,12 +62,20 @@ History
 ~~~~~~
 It may help in your pursuit of coding knowledge to study of bit of 
 _https://en.wikipedia.org/wiki/History_of_computing[history]_ of computing.  Further you may want to 
-quickly peruse the seminal work _https://en.wikipedia.org/wiki/The_Art_of_Computer_Programming["The 
+quickly peruse:
+
+* the seminal work 
+_https://en.wikipedia.org/wiki/The_Art_of_Computer_Programming["The 
 Art of Computer Programming"]_ by _https://en.wikipedia.org/wiki/Donald_Knuth[Donald Knuth]_ to pick 
-up a broad overview of important computing terminology, or the 
+up a broad overview of important computing terminology
+* the 
 _https://mitpress.mit.edu/sites/default/files/sicp/index.html["Structure and Interpretation of 
-Computer Programs"]_ which focusus on "finding general patterns from specific 
-problems"^https://en.wikipedia.org/wiki/Structure_and_Interpretation_of_Computer_Programs[1]^.
+Computer Programs"]_ which focuses on "finding general patterns from 
+specific 
+problems"^https://en.wikipedia.org/wiki/Structure_and_Interpretation_of_Computer_Programs[1]^, 
+* and _https://en.wikipedia.org/wiki/Design_Patterns[Design Patterns]_ 
+by 
+the Gang of Four.
 
 <<<
 
@@ -89,6 +99,7 @@ exploits].
 
 Client Side
 ~~~~~~~~~~~
+
 In web parlance a _Client_ such as legacy browsers Internet Explorer, 
 Firefox, Chrome, Opera and Safari exist on ones personal computing hardware 
 as a means to access information on a remote server. The client technology 
@@ -121,6 +132,62 @@ http://www.html5rocks.com/en/tutorials/internals/howbrowserswork/#The_browser_hi
 
 image:../assets/images/figures/web_browser_layers.png[alt=web_browser_layers.png,width=300]
 
+
+<<<
+
+DOM
++++
+The Document Object Model (DOM) is a platform and language-neutral 
+interface that will allow programs and scripts to dynamically access and 
+update the content, structure and style of 
+documents.^[http://www.w3.org/DOM/#what[1]]^
+
+Quick reference to DOM at:
+
+* http://www.w3.org/DOM/DOMTR[Technical Spec]
+* http://en.wikipedia.org/wiki/Document_Object_Model[Definition]
+* http://www.w3schools.com/jsref/dom_obj_document.asp[W3schools]
+* IBM Demos 
+- some
+http://www.ibm.com/developerworks/library/wa-jsdomupdate/index.html[Javascript]
+- some 
+http://www.ibm.com/developerworks/library/os-xmldomphp/index.html[PHP]
+* the 
+https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model[Mozilla 
+Developer Network]
+* http://www.w3.org/DOM/Test/[Conformance Test]
+* http://stackoverflow.com/questions/tagged/dom[Q&A]
+
+<<<
+
+HTML~5~
+++++++++
+
+Toto I have a feeling we are not in Kansas 
+anymore^[https://www.youtube.com/watch?v=vQLNS3HWfCM[1]]^. Hypertext 
+Markup Language Version 5 has changes and updates to version 4. Note the 
+link to a more stable version of the editors draft at the bottom of the 
+W3C page. 
+
+Quick reference to HTML~5~ at:
+
+* http://www.w3.org/TR/html5/[Technical Spec]
+* http://en.wikipedia.org/wiki/HTML5[Definition]
+* W3schools 
+http://www.w3schools.com/HTML/html5_new_elements.asp[new 
+elements]
+* Tutorialspoint
+http://www.tutorialspoint.com/html5/html5_deprecated_tags.htm[deprecated 
+elements]
+* http://www.html-5.com/[html-5.com]
+* https://html5boilerplate.com/[html5 boiler plate]
+* http://html5please.com/[html5please]
+* http://htmlshell.com/[html shell]
+* http://html5demos.com/[Demos]
+* https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5[Mozilla 
+Developer Network]
+* http://validator.w3.org/nu/[Validator]
+* http://stackoverflow.com/questions/tagged/html5[Q&A]
 
 <<<
 

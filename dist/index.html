@@ -776,8 +776,9 @@ special characters that essentially make the example different from the working 
 </div>
 <div class="sect2">
 <h3 id="_fundamentals">Fundamentals</h3>
-<div class="paragraph"><p>Code will be based on a model of the way you and your customers perceive your data world. To help
-communicate your understanding, you might draw a
+<div class="paragraph"><p>Code will be based on a model of the way you and your customers perceive your data world with an
+<em><a href="https://en.wikipedia.org/wiki/Algorithm">algorithm</a></em>.
+ To help communicate your understanding, you might draw a
 <em><a href="http://en.wikipedia.org/wiki/Unified_Modeling_Language">UML</a></em>,
 <em><a href="http://en.wikipedia.org/wiki/Flowchart">flow chart</a></em>,
 <em><a href="http://en.wikipedia.org/wiki/State_diagram">state</a></em> or
@@ -816,15 +817,19 @@ up a broad overview of important computing terminology
 the
 <em><a href="https://mitpress.mit.edu/sites/default/files/sicp/index.html">"Structure and Interpretation of
 Computer Programs"</a></em> which focuses on "finding general patterns from
-specific
-problems"<sup><a href="https://en.wikipedia.org/wiki/Structure_and_Interpretation_of_Computer_Programs">1</a></sup>,
+specific problems"<sup><a href="https://en.wikipedia.org/wiki/Structure_and_Interpretation_of_Computer_Programs">1</a></sup>,
 </p>
 </li>
 <li>
 <p>
 and <em><a href="https://en.wikipedia.org/wiki/Design_Patterns">Design Patterns</a></em>
-by
-the Gang of Four.
+by the Gang of Four.
+</p>
+</li>
+<li>
+<p>
+and <em><a href="http://usingcsp.com/cspbook.pdf">Communicating Sequential Processes</a></em> by
+<em><a href="https://en.wikipedia.org/wiki/Tony_Hoare">Tony Hoare</a></em>
 </p>
 </li>
 </ul></div>
@@ -1031,6 +1036,11 @@ Developer Network</a>
 <div class="ulist"><div class="title">Software</div><ul>
 <li>
 <p>
+<a href="http://asciidoc.org/">Asciidoc</a> syntax
+</p>
+</li>
+<li>
+<p>
 Edited and previewed with <a href="https://asciidoclive.com">asciidoclive</a>
 </p>
 </li>
@@ -1056,7 +1066,7 @@ bash commands to publish from <code>/src/index.txt</code> to <code>/dist/index.h
     asciidoc 8.6.9
 
     # cd src
-    # asciidoc -o ../dist/index.html -a toc -dbook index.txt</code></pre>
+    # asciidoc -o ../dist/index.html -a toc -dbook index.asciidoc</code></pre>
 </div></div>
 <div class="ulist"><ul>
 <li>
@@ -1073,7 +1083,7 @@ Reference:
 <div id="footer">
 <div id="footer-text">
 Version 0.0.1<br />
-Last updated 2018-05-25 19:16:24 EDT
+Last updated 2018-05-30 12:18:05 EDT
 </div>
 </div>
 </body>

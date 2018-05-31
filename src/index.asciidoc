@@ -1,4 +1,4 @@
-// a2x: --dblatex-opts "--param toc.section.depth=3"
+// a2x: --dblatex-opts "--param toc.section.depth=4"
 
 Introduction to Coding
 ======================
@@ -192,7 +192,181 @@ Developer Network]
 
 <<<
 
-[colophon]
+Javascript
+++++++++++
+- Definition
+
+  * Specification: http://www.ecma-international.org/publications/standards/Ecma-262.htm[ecma-262], version: 
+http://www.ecma-international.org/ecma-262/8.0/index.html[8.0], http://www.ecma-international.org/ecma-262/7.0/index.html[7.0], 
+http://www.ecma-international.org/ecma-262/5.1/[5.1]
+
+  * http://en.wikipedia.org/wiki/Javascript[Wikipedia]
+- Code Schools
+  * http://www.freecodecamp.com/[FreeCodeCamp]
+  * https://www.lynda.com/portal/sip?org=piercecountylibrary.org[Lynda] (for Pierce County, WA 
+residents)
+  * http://www.tutorialspoint.com/javascript/[Tutorialspoint]
+  * http://javascript.info/[Javascript.info]
+  * http://www.w3schools.com/js/default.asp[W3schools]
+  * https://www.codewars.com/[Codewars]
+  * https://www.codecademy.com/learn/learn-javascript[Codecademy] (not free)
+  * Step by step tutorial - http://www.asmarterwaytolearn.com/[A smarter way to learn Javascript] ( 
+http://www.asmarterwaytolearn.com/js/register.html[register] )
+
+- Developer Resources
+
+  * Q&A http://stackoverflow.com/questions/tagged/javascript[so]
+
+  * MDN
+    a. https://developer.mozilla.org/en-US/docs/JavaScript/Language_Resources[Resources]
+    b. https://developer.mozilla.org/en-US/docs/Web/JavaScript[Docs]
+
+  * List of lists
+    a. by https://devdocs.io/[DevDocs.io]
+    b. by https://www.bento.io/javascript[Bento.io]
+
+  * Books
+    a. https://github.com/getify/You-Dont-Know-JS[You Don't Know JS] by 
+https://github.com/getify[Kyle Simpson]
+b. http://eloquentjavascript.net/[Eloquent JavaScript] by http://marijnhaverbeke.nl/[Marijn 
+Haverbeke]
+    c. http://speakingjs.com/[Speaking JavaScript] by http://rauschma.de/[Dr. Axel Rauschmayer]
+    d. http://exploringjs.com/es6/index.html[Exploring ES6] by http://rauschma.de/[Dr. Axel 
+Rauschmayer]
+    e. https://github.com/bpesquet/thejsway[The JS Way] by http://www.bpesquet.com/[B Pesquet]
+    f. https://github.com/EbookFoundation/free-programming-books/blob/master/free-programming-books.md#javascript[EBook 
+Foundation]
+
+- Tools
+  * Browser IDE
+    a. http://codepen.io/[Code Pen]
+    b. http://plnkr.co/[Plnkr] -Real-time code collaboration
+    c. http://jsfiddle.net/[JSFiddle] - Test code snippets
+    d. http://jsbin.com/[JSBin] -
+    e. https://thimble.mozilla.org/en-US/[Thimble]
+  * Online IDE
+    a. https://aws.amazon.com/cloud9/?origin=c9io[Cloud9]
+  * Code Quality Inspection - http://www.jslint.com/[JSLint]
+  * Code Evaluation- http://www.jshint.com/[JSHint]
+  * http://jsbeautifier.org/[Beautifier]
+  * Benchmarking
+    a. http://jsbench.github.io/[jsbench.github.io]
+    ^[https://github.com/jsbench/jsbench.github.io[1]]^
+    ^[https://plg.uwaterloo.ca/~dynjs/jsbench/[2]]^
+
+- Tools
+  * https://caniuse.com/#home[canIuse] - browser feature comparison
+  * Browser IDE
+    a. http://codepen.io/[Code Pen]
+    b. http://plnkr.co/[Plnkr] -Real-time code collaboration
+    c. http://jsfiddle.net/[JSFiddle] - Test code snippets
+    d. http://jsbin.com/[JSBin] -
+    e. https://thimble.mozilla.org/en-US/[Thimble]
+  * Online IDE
+    a. https://aws.amazon.com/cloud9/?origin=c9io[Cloud9]
+  * Code Quality Inspection - http://www.jslint.com/[JSLint]
+  * Code Evaluation- http://www.jshint.com/[JSHint]
+  * http://jsbeautifier.org/[Beautifier]
+  * Benchmarking
+    a. http://jsbench.github.io/[jsbench.github.io]
+    ^[https://github.com/jsbench/jsbench.github.io[1]]^
+    ^[https://plg.uwaterloo.ca/~dynjs/jsbench/[2]]^
+
+<<<
+
+- Patterns
+  * Design
+    A. https://addyosmani.com/resources/essentialjsdesignpatterns/book/[Learning Javascript Design 
+patterns] by Addy Osami
+
+  * Modules (in the browser ...)
+    A. MDN https://developer.mozilla.org/en-US/docs/Glossary/IIFE[IIFE] - Immediately Invoked 
+Function Expression
+    B. http://jsmodules.io/[jsmodules.io]
+    C. http://www.adequatelygood.com/JavaScript-Module-Pattern-In-Depth.html[Ben Cherry] ^2010^ - 
+IIFE
+    D. http://yuiblog.com/blog/2007/06/12/module-pattern/[Eric Miraglia re: YUI] ^2007^
+
+  * Scope and closure
+    A. http://javascriptissexy.com/understand-javascript-closures-with-ease/[Richard] ^2013^
+    B. http://javascriptplayground.com/blog/2012/04/javascript-variable-scope-this/[Jack Franklin] 
+^2012^
+    C. http://robertnyman.com/2008/10/09/explaining-javascript-scope-and-closures/[Robert Nyman] 
+^2008^
+
+  * Pearls of Wisdon
+    A. http://www.dyn-web.com/javascript/[Dyn-web tutorial]
+    B. http://crockford.com/javascript/[Douglas Crockford]
+    C. https://javascriptplayground.com/[Jack Franklin]
+
+  * Refactoring
+    A. http://refactoringjs.com/files/refactoring-javascript.pdf[Refactoring Javascript] by Evan Burchard
+    B. https://www.sitepoint.com/javascript-refactoring-techniques-specific-to-generic-code/[Sitepoint] - techniques
+    C. https://javascriptplayground.com/the-refactoring-tales/refactoring-tales.html[Tales] - by Jack Franklin
+    D. http://javascriptplayground.com/blog/2013/06/refactoring-js/[DOM Heavy JS] - by Jack Franklin
+    E. http://www.slideshare.net/szafranek/javascript-refactoring[Slideshare] by szafranek
+    F. http://blog.pluralsight.com/6-examples-of-hard-to-test-javascript[Hard to test] by elijahmanor
+
+- Data Structures
+
+  * Linked Lists
+
+    A. https://en.wikipedia.org/wiki/Linked_list[Definition]
+
+    B. Examples
+
+       a. https://github.com/nzakas/computer-science-in-javascript/tree/master/data-structures/linked-list[nzakas]
+       b. http://www.thatjsdude.com/interview/linkedList.html[Interview LL]
+       c. https://gist.github.com/wesleyhales/2023993[Wesleyhales]
+
+    C. Articles
+
+       a. http://blog.millermedeiros.com/linked-lists/[miller]
+       b. https://www.nczonline.net/blog/2009/04/13/computer-science-in-javascript-linked-list[nzakas-cs-js-ll]
+       c. http://www.i-programmer.info/programming/javascript/5328-javascript-data-structures-the-linked-list.html[i-programmer]
+       d. https://blog.jcoglan.com/2007/07/23/writing-a-linked-list-in-javascript/[jcoglan]
+       e. https://blog.theodorejb.me/linked-list-sorting/[sorting]
+
+    D. Interview Questions
+
+       a. http://www.programmerinterview.com/index.php/data-structures/how-to-find-if-a-linked-list-is-circular-or-has-a-cycle-or-it-ends[cyclic or acyclic]
+
+    E. Libraries
+
+       a. http://jsclass.jcoglan.com/linkedlist.html[doubly ll] by jcoglan
+
+    F. Youtube
+
+       a. https://www.youtube.com/watch?v=UESEbKb_uWw[HackWithSelby]
+
+    G. NodeJS
+
+       a. npm package https://www.npmjs.com/package/linkedlist[linkedlist]
+
+<<<
+
+Bibliography
+============
+  . http://www.informit.com/store/art-of-computer-programming-volumes-1-4a-boxed-set-9780321751041[Art of Computer Programming]
+
+  . http://producingoss.com/en/index.html[Producing Open Source Software] by
+https://www.red-bean.com/kfogel/[Karl Fogel]
+
+  . http://www.catb.org/~esr/writings/cathedral-bazaar/cathedral-bazaar/[The Cathedral and the
+Bazaar] by http://www.catb.org/esr/[Eric S. Raymond]
+
+  . https://legacy.gitbook.com/book/97-things-every-x-should-know/97-things-every-programmer-should-know/details[97 
+Things Every Programmer Should Know]
+
+  . 97 Things Every Software Architect Should Know
+
+  . https://martinfowler.com/books/refactoring.html[Refactoring] - Improving the design of existing code
+
+  . http://www.ai.univ-paris8.fr/~lysop/opdyke-thesis.pdf[Refactoring Object-Oriented Frameworks]
+
+<<<
+
+
 Colophon
 ========
 
@@ -202,7 +376,7 @@ Colophon
 * Edited and previewed with https://asciidoclive.com[asciidoclive]
 * Copy and pasted to https://www.nano-editor.org/[nano] text editor on development machine.
 * Output formated with https://github.com/asciidoc/asciidoc3[asciidoc3] which requires Python3
-  * bash commands to publish from `/src/index.txt` to `/dist/index.html`:
+  * bash commands to publish from `/src/index.asciidoc` to `/dist/index.html`:
 
 ----
     # asciidoc --version

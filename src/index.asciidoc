@@ -194,13 +194,43 @@ Developer Network]
 
 Javascript
 ++++++++++
-- Definition
+
+*Here* javascript refers to just-in-time(JIT) compiled in a *client 
+browser* https://en.wikipedia.org/wiki/Web_browser[->], while the topic 
+in this document titled NodeJS, javascript refers to JIT compiled on a 
+server.  Resourceful developers have blurred this clear distinction 
+between client browser and NodeJS server by using the server tools on 
+their development laptop or desktop and requiring NodeJS to serve a 
+plethora of development tools such as pre-compilers, type checkers, 
+linting, and auto refresh from localhost 
+https://en.wikipedia.org/wiki/Localhost[->].  This justifiably powerful 
+combination of project code base combined with coding tools requirements 
+leads to a project structure that is uniqely complex in such a way that 
+the project codebase is inherently _married_ to the coding tools used to 
+create the codebase.  Editing that codebase requires that the tools 
+chosen by the original architects _must_ be used. Architects choose your 
+tools wisely :)
+
+To simplify this introductory discussion, references listed in this 
+topic 
+generally refer only to client side plain javascript without requiring 
+the additional tools, or the tools are standalone separated from the 
+code base.  Obviously as the complexity of the codebase grows the need 
+for the embedded tools becomes clear.
+
+-  *Javascript* Definition
 
   * Specification: http://www.ecma-international.org/publications/standards/Ecma-262.htm[ecma-262], version: 
 http://www.ecma-international.org/ecma-262/8.0/index.html[8.0], http://www.ecma-international.org/ecma-262/7.0/index.html[7.0], 
 http://www.ecma-international.org/ecma-262/5.1/[5.1]
+    A. TC39 Specification committee
+      a. github https://github.com/tc39[->]
+      b. process-document https://tc39.github.io/process-document/[->]
+      c. Task Group 
+http://www.ecma-international.org/memento/TC39.htm[->]
 
   * http://en.wikipedia.org/wiki/Javascript[Wikipedia]
+
 - Code Schools
   * http://www.freecodecamp.com/[FreeCodeCamp]
   * https://www.lynda.com/portal/sip?org=piercecountylibrary.org[Lynda] (for Pierce County, WA 

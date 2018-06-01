@@ -237,22 +237,6 @@ Rauschmayer]
     f. https://github.com/EbookFoundation/free-programming-books/blob/master/free-programming-books.md#javascript[EBook 
 Foundation]
 
-- Tools
-  * Browser IDE
-    a. http://codepen.io/[Code Pen]
-    b. http://plnkr.co/[Plnkr] -Real-time code collaboration
-    c. http://jsfiddle.net/[JSFiddle] - Test code snippets
-    d. http://jsbin.com/[JSBin] -
-    e. https://thimble.mozilla.org/en-US/[Thimble]
-  * Online IDE
-    a. https://aws.amazon.com/cloud9/?origin=c9io[Cloud9]
-  * Code Quality Inspection - http://www.jslint.com/[JSLint]
-  * Code Evaluation- http://www.jshint.com/[JSHint]
-  * http://jsbeautifier.org/[Beautifier]
-  * Benchmarking
-    a. http://jsbench.github.io/[jsbench.github.io]
-    ^[https://github.com/jsbench/jsbench.github.io[1]]^
-    ^[https://plg.uwaterloo.ca/~dynjs/jsbench/[2]]^
 
 - Tools
   * https://caniuse.com/#home[canIuse] - browser feature comparison

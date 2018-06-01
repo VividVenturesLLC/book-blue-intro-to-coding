@@ -9,5 +9,5 @@ On branch `gutsy-crayon`
 * Embed the book in your webpage
 
 ```
-    <iframe src="https://rawgit.com/VividVenturesLLC/book-blue-intro-to-coding/gutsy-crayon/dist/index.html" height="450px"></iframe> 
+    <iframe src="https://cdn.rawgit.com/VividVenturesLLC/book-blue-intro-to-coding/gutsy-crayon/dist/index.html" height="450px"></iframe> 
 ```

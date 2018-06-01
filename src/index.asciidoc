@@ -3,7 +3,7 @@
 Introduction to Coding
 ======================
 Northdecoder
-v0.0.1, 2018-5
+v0.0.1, 2018-6
 :doctype: book
 
 Coding
@@ -73,7 +73,8 @@ up a broad overview of important computing terminology
 _https://mitpress.mit.edu/sites/default/files/sicp/index.html["Structure and Interpretation of 
 Computer Programs"]_ which focuses on "finding general patterns from 
 specific problems"^https://en.wikipedia.org/wiki/Structure_and_Interpretation_of_Computer_Programs[1]^, 
-* and _https://en.wikipedia.org/wiki/Design_Patterns[Design Patterns]_ 
+* worthy _https://en.wikipedia.org/wiki/Design_Patterns[Design 
+Patterns]_ 
 by the Gang of Four.
 * and _http://usingcsp.com/cspbook.pdf[Communicating Sequential Processes]_ by 
 _https://en.wikipedia.org/wiki/Tony_Hoare[Tony Hoare]_
@@ -402,3 +403,15 @@ Colophon
 * Reference: 
 http://blog.srackham.com/posts/publishing-ebooks-with-asciidoc/[publishing-ebooks]
 
+
+License
+=======
+
+image:https://i.creativecommons.org/l/by/4.0/80x15.png[alt="Creative 
+Commons License"]http://creativecommons.org/licenses/by/4.0[->]
+
+_"https://github.com/VividVenturesLLC/book-blue-intro-to-coding[Book 
+Blue Intro to Coding]_ 
+by https://github.com/NorthDecoder[Northdecoder] is licensed under 
+a http://creativecommons.org/licenses/by/4.0/[Creative Commons 
+Attribution 4.0 International License].

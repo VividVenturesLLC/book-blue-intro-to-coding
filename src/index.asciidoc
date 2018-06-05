@@ -59,6 +59,32 @@ theory just _http://en.wikipedia.org/wiki/Code_reuse[copy]_ some already functio
 from a https://en.wikipedia.org/wiki/Repository_(version_control)[code repository] such as 
 _https://github.com/[Git Hub]_, or _https://www.openhub.net/[Open Hub]_.
 
+While a bottom up approach to learning coding starting with a single line of code like 
+https://en.wikipedia.org/wiki/Hello_World[Hello World] is one way to start out, then work up to 
+a larger understanding; a top down approach may also be helpful to understand the pattern of 
+https://en.wikipedia.org/wiki/Software_ecosystem[Ecosystems] which contains 
+https://en.wikipedia.org/wiki/Software_framework[Frameworks] of 
+https://en.wikipedia.org/wiki/Library_(computing)[Libraries] with 
+https://en.wikipedia.org/wiki/Application_programming_interface[API]'s and 
+https://en.wikipedia.org/wiki/Plug-in_(computing)[Plugins] organized by a 
+https://en.wikipedia.org/wiki/Package_manager[Package Manager] on a 
+https://en.wikipedia.org/wiki/Computing_platform[Computing Platform] within which one is 
+studying.
+
+The heirarchy looks something like this:
+
+-----------------------
+  - Ecosystem
+    * Framework
+      A. Library
+         a. API
+         b. Plugin
+         c. Single line of "Hello World"
+      B. Package Manager
+  - Computing Platform
+-----------------------
+
+
 History
 ~~~~~~
 It may help in your pursuit of coding knowledge to study of bit of 

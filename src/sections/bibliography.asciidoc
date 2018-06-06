@@ -1,0 +1,18 @@
+Bibliography
+------------
+  . http://www.informit.com/store/art-of-computer-programming-volumes-1-4a-boxed-set-9780321751041[Art of Computer Programming]
+
+  . http://producingoss.com/en/index.html[Producing Open Source Software] by
+https://www.red-bean.com/kfogel/[Karl Fogel]
+
+  . http://www.catb.org/~esr/writings/cathedral-bazaar/cathedral-bazaar/[The Cathedral and the
+Bazaar] by http://www.catb.org/esr/[Eric S. Raymond]
+
+  . https://legacy.gitbook.com/book/97-things-every-x-should-know/97-things-every-programmer-should-know/details[97 
+Things Every Programmer Should Know]
+
+  . 97 Things Every Software Architect Should Know
+
+  . https://martinfowler.com/books/refactoring.html[Refactoring] - Improving the design of existing code
+
+  . http://www.ai.univ-paris8.fr/~lysop/opdyke-thesis.pdf[Refactoring Object-Oriented Framework]

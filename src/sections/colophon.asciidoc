@@ -1,0 +1,20 @@
+Colophon
+--------
+
+
+.Software
+* http://asciidoc.org/[Asciidoc] syntax
+* Edited and previewed with https://asciidoclive.com[asciidoclive]
+* Copy and pasted to https://www.nano-editor.org/[nano] text editor on development machine.
+* Output formated with https://github.com/asciidoc/asciidoc3[asciidoc3] which requires Python3
+  * bash commands to publish from `/src/index.asciidoc` to `/dist/index.html`:
+
+----
+    # asciidoc --version
+    asciidoc 8.6.9
+
+    # cd src
+    # asciidoc -o ../dist/index.html -a toc -dbook index.asciidoc
+----
+* Reference: 
+http://blog.srackham.com/posts/publishing-ebooks-with-asciidoc/[publishing-ebooks]

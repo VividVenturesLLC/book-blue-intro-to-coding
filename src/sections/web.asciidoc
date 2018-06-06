@@ -1,0 +1,275 @@
+Web
+----
+
+image:../assets/images/figures/client_server.jpg[alt="client-server",width=300,height=256]
+A really simple view of the web minus the code and the wires and all the 
+intermediate hardware. See a more complex view of the web at 
+http://www.opte.org/[Opte]. Once you have seen the interconnectedness of 
+the web on Opte and reviewed the technical details of how that diagram was 
+created your first observation should be that every server and every client 
+has access to all other servers and clients in the world. Yes! Your good 
+customers can find your website on your server and the bad guys can find it 
+too! Code you write, websites and computers under your control must take 
+into account and protect against https://www.us-cert.gov/[known] 
+http://en.wikipedia.org/wiki/Hacker_%28computer_security%29[hacker 
+exploits].
+
+<<<
+
+Client Side
+~~~~~~~~~~
+
+In web parlance a _Client_ such as legacy browsers Internet Explorer, 
+Firefox, Chrome, Opera and Safari exist on ones personal computing hardware 
+as a means to access information on a remote server. The client technology 
+is rapidly evolving as applications for hardware such as smart phones and wearable devices. Rapid evolution and competition has led to some variance in the way each 
+browser interprets the code it receives in a web page. Features 
+that work in one browser may not work at all in others, which has led to 
+the need for https://en.wikipedia.org/wiki/Cross-browser[cross-browser] 
+testing and the development of 
+https://en.wikipedia.org/wiki/List_of_web_testing_tools[web testing tools].
+
+Browsers
+^^^^^^^^
+A web browser is a software application for retrieving, presenting and traversing information 
+resources on a local machine, intranet or on the World Wide Web. The primary purpose of a web 
+browser is to bring information resources to the user ("retrieval" or "fetching"), allowing them to 
+view the information ("display", "rendering"), and then access other information ("navigation", 
+"following links"). ^(http://en.wikipedia.org/wiki/Web_browser[1])^ Some popular browsers are: 
+http://en.wikipedia.org/wiki/Internet_Explorer[Internet Explorer], 
+http://en.wikipedia.org/wiki/Firefox[Firefox], http://en.wikipedia.org/wiki/Google_Chrome[Google 
+Chrome], http://en.wikipedia.org/wiki/Opera_%28web_browser%29[Opera], 
+http://en.wikipedia.org/wiki/Safari_%28web_browser%29[Safari] and 
+http://en.wikipedia.org/wiki/Konqueror[Konquerer]. A http://en.wikipedia.org/wiki/Mobile_app[mobile 
+app] is a computer program designed to run on smartphones, tablet computers and other mobile 
+devices.
+
+The browsers high level 
+http://www.html5rocks.com/en/tutorials/internals/howbrowserswork/#The_browser_high_level_structure[structure]:
+
+
+image:../assets/images/figures/web_browser_layers.png[alt=web_browser_layers.png,width=300]
+
+
+<<<
+
+DOM
++++
+The Document Object Model (DOM) is a platform and language-neutral 
+interface that will allow programs and scripts to dynamically access and 
+update the content, structure and style of 
+documents.^[http://www.w3.org/DOM/#what[1]]^
+
+Quick reference to DOM at:
+
+* http://www.w3.org/DOM/DOMTR[Technical Spec]
+* http://en.wikipedia.org/wiki/Document_Object_Model[Definition]
+* http://www.w3schools.com/jsref/dom_obj_document.asp[W3schools]
+* IBM Demos 
+- some
+http://www.ibm.com/developerworks/library/wa-jsdomupdate/index.html[Javascript]
+- some 
+http://www.ibm.com/developerworks/library/os-xmldomphp/index.html[PHP]
+* the 
+https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model[Mozilla 
+Developer Network]
+* http://www.w3.org/DOM/Test/[Conformance Test]
+* http://stackoverflow.com/questions/tagged/dom[Q&A]
+
+<<<
+
+HTML~5~
+++++++++
+
+Toto I have a feeling we are not in Kansas 
+anymore^[https://www.youtube.com/watch?v=vQLNS3HWfCM[1]]^. Hypertext 
+Markup Language Version 5 has changes and updates to version 4. Note the 
+link to a more stable version of the editors draft at the bottom of the 
+W3C page. 
+
+Quick reference to HTML~5~ at:
+
+* http://www.w3.org/TR/html5/[Technical Spec]
+* http://en.wikipedia.org/wiki/HTML5[Definition]
+* W3schools 
+http://www.w3schools.com/HTML/html5_new_elements.asp[new 
+elements]
+* Tutorialspoint
+http://www.tutorialspoint.com/html5/html5_deprecated_tags.htm[deprecated 
+elements]
+* http://www.html-5.com/[html-5.com]
+* https://html5boilerplate.com/[html5 boiler plate]
+* http://html5please.com/[html5please]
+* http://htmlshell.com/[html shell]
+* http://html5demos.com/[Demos]
+* https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5[Mozilla 
+Developer Network]
+* http://validator.w3.org/nu/[Validator]
+* http://stackoverflow.com/questions/tagged/html5[Q&A]
+
+<<<
+
+Javascript
+++++++++++
+
+*Here* javascript refers to just-in-time(JIT) compiled in a *client 
+browser* https://en.wikipedia.org/wiki/Web_browser[->], while the topic 
+in this document titled NodeJS, javascript refers to JIT compiled on a 
+server.  Resourceful developers have blurred this clear distinction 
+between client browser and NodeJS server by using the server tools on 
+their development laptop or desktop and requiring NodeJS to serve a 
+plethora of development tools such as pre-compilers, type checkers, 
+linting, and auto refresh from localhost 
+https://en.wikipedia.org/wiki/Localhost[->].  This justifiably powerful 
+combination of project code base combined with coding tools requirements 
+leads to a project structure that is uniquely complex in such a way that 
+the project codebase is inherently _married_ to the coding tools used to 
+create the codebase.  Editing that codebase requires that the tools 
+chosen by the original architects _must_ be used. Architects choose your 
+tools wisely :)
+
+To simplify this introductory discussion, references listed in this 
+topic 
+generally refer only to client side plain javascript without requiring 
+the additional tools, or the tools are standalone separated from the 
+code base.  Obviously as the complexity of the codebase grows the need 
+for the embedded tools becomes clear.
+
+-  *Javascript* Definition
+
+  * Specification: http://www.ecma-international.org/publications/standards/Ecma-262.htm[ecma-262], version: 
+http://www.ecma-international.org/ecma-262/8.0/index.html[8.0], http://www.ecma-international.org/ecma-262/7.0/index.html[7.0], 
+http://www.ecma-international.org/ecma-262/5.1/[5.1]
+    A. TC39 Specification committee
+      a. github https://github.com/tc39[->]
+      b. process-document https://tc39.github.io/process-document/[->]
+      c. Task Group 
+http://www.ecma-international.org/memento/TC39.htm[->]
+
+  * http://en.wikipedia.org/wiki/Javascript[Wikipedia]
+
+- Code Schools
+  * http://www.freecodecamp.com/[FreeCodeCamp]
+  * https://www.lynda.com/portal/sip?org=piercecountylibrary.org[Lynda] (for Pierce County, WA 
+residents)
+  * http://www.tutorialspoint.com/javascript/[Tutorialspoint]
+  * http://javascript.info/[Javascript.info]
+  * http://www.w3schools.com/js/default.asp[W3schools]
+  * https://www.codewars.com/[Codewars]
+  * https://www.codecademy.com/learn/learn-javascript[Codecademy] (not free)
+  * Step by step tutorial - http://www.asmarterwaytolearn.com/[A smarter way to learn Javascript] ( 
+http://www.asmarterwaytolearn.com/js/register.html[register] )
+
+- Developer Resources
+
+  * Q&A http://stackoverflow.com/questions/tagged/javascript[so]
+
+  * MDN
+    a. https://developer.mozilla.org/en-US/docs/JavaScript/Language_Resources[Resources]
+    b. https://developer.mozilla.org/en-US/docs/Web/JavaScript[Docs]
+
+  * List of lists
+    a. by https://devdocs.io/[DevDocs.io]
+    b. by https://www.bento.io/javascript[Bento.io]
+
+  * Books
+    a. https://github.com/getify/You-Dont-Know-JS[You Don't Know JS] by 
+https://github.com/getify[Kyle Simpson]
+b. http://eloquentjavascript.net/[Eloquent JavaScript] by http://marijnhaverbeke.nl/[Marijn 
+Haverbeke]
+    c. http://speakingjs.com/[Speaking JavaScript] by http://rauschma.de/[Dr. Axel Rauschmayer]
+    d. http://exploringjs.com/es6/index.html[Exploring ES6] by http://rauschma.de/[Dr. Axel 
+Rauschmayer]
+    e. https://github.com/bpesquet/thejsway[The JS Way] by http://www.bpesquet.com/[B Pesquet]
+    f. https://github.com/EbookFoundation/free-programming-books/blob/master/free-programming-books.md#javascript[EBook 
+Foundation]
+
+
+- Tools
+  * https://caniuse.com/#home[canIuse] - browser feature comparison
+  * Browser IDE
+    a. http://codepen.io/[Code Pen]
+    b. http://plnkr.co/[Plnkr] -Real-time code collaboration
+    c. http://jsfiddle.net/[JSFiddle] - Test code snippets
+    d. http://jsbin.com/[JSBin] -
+    e. https://thimble.mozilla.org/en-US/[Thimble]
+  * Online IDE
+    a. https://aws.amazon.com/cloud9/?origin=c9io[Cloud9]
+  * Code Quality Inspection - http://www.jslint.com/[JSLint]
+  * Code Evaluation- http://www.jshint.com/[JSHint]
+  * http://jsbeautifier.org/[Beautifier]
+  * Benchmarking
+    a. http://jsbench.github.io/[jsbench.github.io]
+    ^[https://github.com/jsbench/jsbench.github.io[1]]^
+    ^[https://plg.uwaterloo.ca/~dynjs/jsbench/[2]]^
+
+<<<
+
+- Patterns
+  * Design
+    A. https://addyosmani.com/resources/essentialjsdesignpatterns/book/[Learning Javascript Design 
+patterns] by Addy Osami
+
+  * Modules (in the browser ...)
+    A. MDN https://developer.mozilla.org/en-US/docs/Glossary/IIFE[IIFE] - Immediately Invoked 
+Function Expression
+    B. http://jsmodules.io/[jsmodules.io]
+    C. http://www.adequatelygood.com/JavaScript-Module-Pattern-In-Depth.html[Ben Cherry] ^2010^ - 
+IIFE
+    D. http://yuiblog.com/blog/2007/06/12/module-pattern/[Eric Miraglia re: YUI] ^2007^
+
+  * Scope and closure
+    A. http://javascriptissexy.com/understand-javascript-closures-with-ease/[Richard] ^2013^
+    B. http://javascriptplayground.com/blog/2012/04/javascript-variable-scope-this/[Jack Franklin] 
+^2012^
+    C. http://robertnyman.com/2008/10/09/explaining-javascript-scope-and-closures/[Robert Nyman] 
+^2008^
+
+  * Pearls of Wisdon
+    A. http://www.dyn-web.com/javascript/[Dyn-web tutorial]
+    B. http://crockford.com/javascript/[Douglas Crockford]
+    C. https://javascriptplayground.com/[Jack Franklin]
+
+  * Refactoring
+    A. http://refactoringjs.com/files/refactoring-javascript.pdf[Refactoring Javascript] by Evan Burchard
+    B. https://www.sitepoint.com/javascript-refactoring-techniques-specific-to-generic-code/[Sitepoint] - techniques
+    C. https://javascriptplayground.com/the-refactoring-tales/refactoring-tales.html[Tales] - by Jack Franklin
+    D. http://javascriptplayground.com/blog/2013/06/refactoring-js/[DOM Heavy JS] - by Jack Franklin
+    E. http://www.slideshare.net/szafranek/javascript-refactoring[Slideshare] by szafranek
+    F. http://blog.pluralsight.com/6-examples-of-hard-to-test-javascript[Hard to test] by elijahmanor
+
+- Data Structures
+
+  * Linked Lists
+
+    A. https://en.wikipedia.org/wiki/Linked_list[Definition]
+
+    B. Examples
+
+       a. https://github.com/nzakas/computer-science-in-javascript/tree/master/data-structures/linked-list[nzakas]
+       b. http://www.thatjsdude.com/interview/linkedList.html[Interview LL]
+       c. https://gist.github.com/wesleyhales/2023993[Wesleyhales]
+
+    C. Articles
+
+       a. http://blog.millermedeiros.com/linked-lists/[miller]
+       b. https://www.nczonline.net/blog/2009/04/13/computer-science-in-javascript-linked-list[nzakas-cs-js-ll]
+       c. http://www.i-programmer.info/programming/javascript/5328-javascript-data-structures-the-linked-list.html[i-programmer]
+       d. https://blog.jcoglan.com/2007/07/23/writing-a-linked-list-in-javascript/[jcoglan]
+       e. https://blog.theodorejb.me/linked-list-sorting/[sorting]
+
+    D. Interview Questions
+
+       a. http://www.programmerinterview.com/index.php/data-structures/how-to-find-if-a-linked-list-is-circular-or-has-a-cycle-or-it-ends[cyclic or acyclic]
+
+    E. Libraries
+
+       a. http://jsclass.jcoglan.com/linkedlist.html[doubly ll] by jcoglan
+
+    F. Youtube
+
+       a. https://www.youtube.com/watch?v=UESEbKb_uWw[HackWithSelby]
+
+    G. NodeJS
+
+       a. npm package https://www.npmjs.com/package/linkedlist[linkedlist]

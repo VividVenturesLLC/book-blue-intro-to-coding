@@ -1,0 +1,9 @@
+Ecosystem - javascript in the browser
+-------------------------------------
+
+In the spirit of https://en.wikipedia.org/wiki/Separation_of_concerns[separation of concerns]
+this is a discussion strictly about javascript in the browser without
+regard for where the code is deployed from or the development tools
+that were used to manipulate the code.  To be continued someday ...
+
+

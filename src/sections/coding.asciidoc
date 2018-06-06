@@ -1,0 +1,98 @@
+Coding
+------
+image:../assets/images/figures/color_coding.jpg[alt="color_coding"]
+This non-comprehensive overview 
+is a reference for those who might like to write their own code. 
+Sharing via open source is a way to learn from the best around the world, therefor articles herein 
+are mostly about _http://en.wikipedia.org/wiki/Open_source[open source]_ software. If you want us to 
+provide solutions for your business please contact us.
+
+Prerequisites
+~~~~~~~~~~~
+Remember prerequisites and revision levels are important when combining code modules. Prerequisites 
+and revision levels are important when combining code modules. (repeated for emphasis) When 
+searching the web for answers, understand that timing is critical. You may be reading a document and 
+downloading a module or code snippet that was created several revisions ago. Would you attempt to 
+put a Model A tire on the current years sedan? Why would you think that code written several months 
+ago will work with the new revision of a language or other module? Beware 
+_http://en.wikipedia.org/wiki/Deprecation[deprecation]_.
+
+Pseudocode
+~~~~~~~~
+In the same line of thinking beware of _http://en.wikipedia.org/wiki/Pseudocode[pseudocode]_. In a 
+Question and Answer example that sort of, kind of, aught to work, but when tested, one finds that it 
+is riddled with _http://en.wikipedia.org/wiki/Syntax_error[syntax errors]_, or is way out of context 
+because it is missing significant related and required code. The former happens for two reasons. The 
+writer is extremely familiar and just types from memory possibly missing a few important characters 
+here and there, or the code has characters that do not translate well into HTML and needs to have 
+special characters that essentially make the example different from the working tested code.
+
+Fundamentals
+~~~~~~~~~~
+Code will be based on a model of the way you and your customers perceive your data world with an
+_https://en.wikipedia.org/wiki/Algorithm[algorithm]_.
+ To help communicate your understanding, you might draw a 
+_http://en.wikipedia.org/wiki/Unified_Modeling_Language[UML]_, 
+_http://en.wikipedia.org/wiki/Flowchart[flow chart]_, 
+_http://en.wikipedia.org/wiki/State_diagram[state]_ or 
+_http://en.wikipedia.org/wiki/Flowchart#See_also[other]_ diagrams. In tandem with the model 
+designed, choose a _http://en.wikipedia.org/wiki/Software_design_pattern[software design pattern]_ 
+such as _http://en.wikipedia.org/wiki/Object-oriented_programming[Object Oriented]_, 
+_http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller[Model View Controller]_, 
+_http://en.wikipedia.org/wiki/Procedural_programming[Procedural]_ or 
+_http://en.wikipedia.org/wiki/Functional_programming[Functional]_ which will finally affect the 
+choice of a _http://en.wikipedia.org/wiki/Programming_language[programming language]_. At each phase 
+of the project you will need a _http://en.wikipedia.org/wiki/Test_plan[test plan]_ for your 
+_http://en.wikipedia.org/wiki/Portal:Software_testing[code testing]_. There may be some parts of the 
+code that do not work as planned and need 
+_http://ericlippert.com/2014/03/05/how-to-debug-small-programs/[debugging]_. Do not spend too much 
+time on or be overwhelmed by the above theories. To get started fast use the Proudly Found Elsewhere 
+theory just _http://en.wikipedia.org/wiki/Code_reuse[copy]_ some already functional open source code 
+from a https://en.wikipedia.org/wiki/Repository_(version_control)[code repository] such as 
+_https://github.com/[Git Hub]_, or _https://www.openhub.net/[Open Hub]_.
+
+While a bottom up approach to learning coding starting with a single line of code like 
+https://en.wikipedia.org/wiki/Hello_World[Hello World] is one way to start out, then work up to 
+a larger understanding; a top down approach may also be helpful to understand the pattern of 
+https://en.wikipedia.org/wiki/Software_ecosystem[Ecosystems] which contains 
+https://en.wikipedia.org/wiki/Software_framework[Frameworks] of 
+https://en.wikipedia.org/wiki/Library_(computing)[Libraries] with 
+https://en.wikipedia.org/wiki/Application_programming_interface[API]'s and 
+https://en.wikipedia.org/wiki/Plug-in_(computing)[Plugins] organized by a 
+https://en.wikipedia.org/wiki/Package_manager[Package Manager] on a 
+https://en.wikipedia.org/wiki/Computing_platform[Computing Platform] within which one is 
+studying.
+
+The hierarchy looks something like this:
+
+-----------------------
+  - Ecosystem
+    * Framework
+      A. Library
+         a. API
+         b. Plugin
+         c. Single line of "Hello World"
+      B. Package Manager
+  - Computing Platform
+-----------------------
+
+
+History
+~~~~~
+It may help in your pursuit of coding knowledge to study of bit of 
+_https://en.wikipedia.org/wiki/History_of_computing[history]_ of computing.  Further you may want to 
+quickly peruse:
+
+* the seminal work 
+_https://en.wikipedia.org/wiki/The_Art_of_Computer_Programming["The 
+Art of Computer Programming"]_ by _https://en.wikipedia.org/wiki/Donald_Knuth[Donald Knuth]_ to pick 
+up a broad overview of important computing terminology
+* the 
+_https://mitpress.mit.edu/sites/default/files/sicp/index.html["Structure and Interpretation of 
+Computer Programs"]_ which focuses on "finding general patterns from 
+specific problems"^https://en.wikipedia.org/wiki/Structure_and_Interpretation_of_Computer_Programs[1]^, 
+* worthy _https://en.wikipedia.org/wiki/Design_Patterns[Design 
+Patterns]_ 
+by the Gang of Four.
+* and _http://usingcsp.com/cspbook.pdf[Communicating Sequential Processes]_ by 
+_https://en.wikipedia.org/wiki/Tony_Hoare[Tony Hoare]_

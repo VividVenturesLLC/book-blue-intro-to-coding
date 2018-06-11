@@ -304,7 +304,7 @@ https://www.packtpub.com/web-development/test-driven-javascript-development[pack
 
        b. get it from https://cdnjs.com/libraries/qunit[cdnjs]
 
-       c. tutorial https://code.tutsplus.com/tutorials/dont-forget-to-cover-your-client-side--cms-21021[tutsplus]
+       c. tutorial https://code.tutsplus.com/tutorials/dont-forget-to-cover-your-client-side%2D%2Dcms-21021[tutsplus]
 
     C. Mocha https://mochajs.org/[:link:]
 

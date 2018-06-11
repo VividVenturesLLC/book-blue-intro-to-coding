@@ -273,3 +273,45 @@ IIFE
     G. NodeJS
 
        a. npm package https://www.npmjs.com/package/linkedlist[linkedlist]
+
+- Test Driven Development (TDD)
+
+  * https://en.wikipedia.org/wiki/Test-driven_development[Definition]
+
+  * Test Frameworks ( Specification and runner in the browser)
+
+    A. Jasmine https://jasmine.github.io/[:link:]
+     
+       a. https://en.wikipedia.org/wiki/Jasmine_(JavaScript_testing_framework)[definition]
+
+       b. get it from https://cdnjs.com/libraries/jasmine[cdnjs]
+
+       c. testing https://angular.io/guide/testing[angular] guide
+
+       d. CE Bartling https://www.slideshare.net/cebartling/javascript-38057372[slideshare]
+
+       e. Lars Thorup https://www.slideshare.net/larsthorup/advanced-jasmine[slideshare], spies, delays, mocks time and ajax
+
+       f. Testing jQuery Dom Events 
+https://www.htmlgoodies.com/beyond/javascript/js-ref/testing-dom-events-using-jquery-and-jasmine-2.0.html[:link:]
+
+       g. Books - test-driven-javascript-development 
+https://www.packtpub.com/web-development/test-driven-javascript-development[packtpub], https://www.tddjs.com/[Addison-Wesley]
+
+    B. QUnit http://qunitjs.com/[:link:]
+    
+       a. https://en.wikipedia.org/wiki/QUnit[Definition]
+
+       b. get it from https://cdnjs.com/libraries/qunit[cdnjs]
+
+       c. tutorial https://code.tutsplus.com/tutorials/dont-forget-to-cover-your-client-side--cms-21021[tutsplus]
+
+    C. Mocha https://mochajs.org/[:link:]
+
+       a. https://en.wikipedia.org/wiki/Mocha_(JavaScript_framework)[Definition]
+
+       b. get mocha from https://cdnjs.com/libraries/mocha[cdnjs]
+       
+       c. https://mochajs.org/#running-mocha-in-the-browser[in the browser]
+
+       d. with assertion https://mochajs.org/#assertions[libraries] should, expect, chai, better-assert, unexpected.

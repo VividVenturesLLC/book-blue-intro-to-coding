@@ -4,6 +4,25 @@ Ecosystem - javascript in the browser
 In the spirit of https://en.wikipedia.org/wiki/Separation_of_concerns[separation of concerns]
 this is a discussion strictly about javascript in the browser without
 regard for where the code is deployed from or the development tools
-that were used to manipulate the code.  To be continued someday ...
+that were used to manipulate the code.
+
+  - Ecosystem
+    * Framework
+      A. Library
+         a. API
+         b. Plugin
+         c. Single line of "Hello World"
+      B. Package Manager
+    * Computing Platform
+
+  . What loads the scripts?
+  . When do the scripts start loading?
+  . When do they stop loading?
+  . When do they start running?
+  . When do they stop running?
+  . What loads the scripts?
+  . Where do the sripts load?
+
+To be continued someday ...
 
 

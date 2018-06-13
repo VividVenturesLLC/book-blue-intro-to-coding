@@ -53,6 +53,8 @@ image:../assets/images/figures/web_browser_layers.png[alt=web_browser_layers.png
 
 <<<
 
+''''
+
 DOM
 +++
 The Document Object Model (DOM) is a platform and language-neutral 
@@ -77,6 +79,8 @@ Developer Network]
 * http://stackoverflow.com/questions/tagged/dom[Q&A]
 
 <<<
+
+''''
 
 HTML~5~
 ++++++++
@@ -108,6 +112,8 @@ Developer Network]
 * http://stackoverflow.com/questions/tagged/html5[Q&A]
 
 <<<
+
+''''
 
 Javascript
 ++++++++++
@@ -315,3 +321,24 @@ https://www.packtpub.com/web-development/test-driven-javascript-development[pack
        c. https://mochajs.org/#running-mocha-in-the-browser[in the browser]
 
        d. with assertion https://mochajs.org/#assertions[libraries] should, expect, chai, better-assert, unexpected.
+
+''''
+
+Cascading Style Sheets (CSS)
+++++++++++++++++++++++++++++
+
+- *CSS* Definition
+  * Specification http://www.w3.org/Style/CSS/[W3C]
+  * http://en.wikipedia.org/wiki/Css[Wikipedia]
+
+- Schools
+  * http://www.w3schools.com/css/[W3schools]
+
+- UX Designer Resources
+  * Q&A https://stackoverflow.com/questions/tagged/css[so], https://www.reddit.com/r/css/[reddit]
+  * MDN
+    A. https://developer.mozilla.org/en-US/docs/Web/CSS[Overview]
+    B. https://developer.mozilla.org/en-US/docs/Web/CSS/Reference[Reference]
+
+- List of lists
+  * https://github.com/awesome-css-group/awesome-css[awesome-css]

@@ -29,15 +29,18 @@ special characters that essentially make the example different from the working 
 
 Fundamentals
 ~~~~~~~~~~
-Code will be based on a model of the way you and your customers perceive your data world with an
-_https://en.wikipedia.org/wiki/Algorithm[algorithm]_.
+Code will be based on a model of the way you perceive your customer's
+https://en.wikipedia.org/wiki/User_story[user story] and 
+system https://en.wikipedia.org/wiki/Requirement[requirement]
+with an _https://en.wikipedia.org/wiki/Algorithm[algorithm]_.
  To help communicate your understanding, you might draw a 
 _http://en.wikipedia.org/wiki/Unified_Modeling_Language[UML]_, 
 _http://en.wikipedia.org/wiki/Flowchart[flow chart]_, 
 _http://en.wikipedia.org/wiki/State_diagram[state]_ or 
 _http://en.wikipedia.org/wiki/Flowchart#See_also[other]_ diagrams. In tandem with the model 
 designed, choose a _http://en.wikipedia.org/wiki/Software_design_pattern[software design pattern]_ 
-such as _http://en.wikipedia.org/wiki/Object-oriented_programming[Object Oriented]_, 
+such as https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93viewmodel[Model View View Model], 
+ _http://en.wikipedia.org/wiki/Object-oriented_programming[Object Oriented]_, 
 _http://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller[Model View Controller]_, 
 _http://en.wikipedia.org/wiki/Procedural_programming[Procedural]_ or 
 _http://en.wikipedia.org/wiki/Functional_programming[Functional]_ which will finally affect the 
@@ -67,13 +70,13 @@ The hierarchy looks something like this:
 
 -----------------------
   - Ecosystem
+    * Computing platform
     * Framework
       A. Library
          a. API
          b. Plugin
          c. Single line of "Hello World"
       B. Package Manager
-  - Computing Platform
 -----------------------
 
 
